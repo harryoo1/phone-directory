@@ -2,10 +2,10 @@ import React from 'react';
 import "./Header.css";
 //import React, { Component } from 'react';
 
- const Header = function(){
+ const Header = function(props){
      return(
          <div className="header">
-            Phone Directory
+            {props.heading}
          </div>
      )
  }
@@ -14,7 +14,7 @@ import "./Header.css";
 //    render() {
 //        return (
 //            <div className="header">
-//                Phone Directory
+//                {this.props.heading}
 //            </div>
 //        )
 //    }
