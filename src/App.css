@@ -1,5 +1,6 @@
 .component-body-container {
   padding: 20px;
+  margin: 0;
 }
 
 .custom-btn {
@@ -22,12 +23,14 @@
 .grid-container {
   display: grid;
   grid-template-columns: 40% 30% auto;
-  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #bbbbbb;
 }
 
 .heading-container {
   margin: 30px 0 30px 0;
-  width: 100%;
+  width: aut0;
+  border-bottom: 5px solid #6ccab0;
 }
 
 .grid-item {
@@ -42,6 +45,11 @@
   font-weight: 600;
   color: #808080;
   text-transform: uppercase;
+}
+
+.delete-btn {
+  background: #ff6c73;
+  color: #fff;
 }
 
 
